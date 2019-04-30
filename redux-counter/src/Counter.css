@@ -22,8 +22,8 @@
 .resetbutton {
     padding: 5px;
     margin: 5px;
-    border-style: ridge;
     border-radius: 5px;
+    background-color: white;
 
 }
 
