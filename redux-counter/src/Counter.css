@@ -1,0 +1,32 @@
+.button {
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.counterdisplay {
+  color: black;
+  background-color: white;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: -1%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+
+.button:active{
+  background-color: #586CD0;
+}
+
+.resetbutton {
+    padding: 5px;
+    margin: 5px;
+    border-style: ridge;
+    border-radius: 5px;
+
+}
+
+.resetbutton:active{
+  background-color: red;
+}
