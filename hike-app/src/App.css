@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: black;
+}
+
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  padding: 20px;
+  text-align: center;
+}
+
+.maindiv h1 {
+color: white;
+text-shadow: 0px 2px 3px #555;
+font-size: 42px;
+margin-left: 1%;
+}
+
+.buttondiv {
+  display: flex;
+  justify-content: center;
+}
+
+
+.updatelocation {
+  margin-right: 50px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  position: relative;
+  display: inline;
+  height: 64px;
+  width: 64px;
+}
+
+.previouslocations {
+  margin-left: 50px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  height: 64px;
+  width: 64px;
+}
+
+
+
+a.ultooltips {
+    position: relative;
+    display: inline;
+}
+a.ultooltips span {
+    position: absolute;
+    width:200px;
+    color: #222;
+    background: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 3px;
+}
+a.ultooltips span:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 51%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-bottom: 8px solid #FFFFFF;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+a:hover.ultooltips span {
+    visibility: visible;
+    opacity: 0.8;
+    top: 10px;
+    left: -18%;
+		margin-top: 22px;
+    margin-left: -50px;
+    z-index: 999;
+}
+
+a.pltooltips {
+    position: relative;
+    display: inline;
+}
+a.pltooltips span {
+    position: absolute;
+    width:200px;
+    color: #222;
+    background: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 3px;
+}
+a.pltooltips span:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-bottom: 8px solid #FFFFFF;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+a:hover.pltooltips span {
+    visibility: visible;
+    opacity: 0.8;
+    top: 10px;
+    left: 30%;
+		margin-top: 22px;
+    margin-left: -50px;
+    z-index: 999;
+}
